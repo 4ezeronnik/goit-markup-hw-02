@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-color: #f5f4fa;
 }
 
 body {
@@ -12,11 +13,19 @@ body {
 }
 
 .logo {
-  color: var(--title-text-color);
+  color: var(--accent-color);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.logo-footer {
+  color: var(--primary-white-color);
 }
 
 .logo:hover {
@@ -30,11 +39,113 @@ body {
   line-height: 1.14;
 }
 
-.site-nav. link:hover,
-.site-nav. link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
+.link {
+  color: inherit;
+  text-decoration: none;
+}
 .list {
   list-style: none;
+}
+
+/* Buttons */
+
+.button {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--secondary-color);
+}
+
+.button-filter:focus,
+.button-filter:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button-studio {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.section-hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--primary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.secondary-title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.section-specific-element-title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-team-element-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-section-description {
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-address {
+  font-style: normal;
+}
+
+.section-address-map {
+  color: var(--primary-white-color);
+  line-height: 1.7;
+  background-color: var(--primary-text-color);
+}
+
+.section-address-contact {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--primary-text-color);
+}
+
+.link.current {
+  color: var(--accent-color);
+}
+
+.section-works-element {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.section-works-paragraph {
+  font-size: 16px;
+  line-height: 1.9;
 }
