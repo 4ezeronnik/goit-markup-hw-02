@@ -13,27 +13,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* Logo */
-.logo {
-  color: var(--accent-color);
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-}
-
-.logo-header {
-  color: #000000;
-}
-
-.logo-footer {
-  color: var(--primary-white-color);
-}
-
-.logo:hover {
-  color: var(--accent-color);
-}
-
 /* Links */
 .site-nav .link {
   color: var(--title-text-color);
@@ -58,6 +37,30 @@ body {
 
 .link.current {
   color: var(--accent-color);
+}
+
+/* Logo */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: var(--title-text-color);
+}
+
+.logo-footer {
+  color: var(--primary-white-color);
+}
+.logo-background {
+  background-color: var(--primary-text-color);
 }
 
 /* Buttons */
@@ -92,7 +95,7 @@ body {
 }
 
 /* Sections */
-.section-hero-title {
+.hero-title {
   color: var(--primary-white-color);
   background-color: var(--primary-text-color);
   font-weight: 900;
@@ -108,14 +111,14 @@ body {
   color: var(--title-text-color);
 }
 
-.section-specific-element-title {
+.specific-element-title {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.section-team-element-title {
+.team-element-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -123,34 +126,34 @@ body {
   text-align: center;
 }
 
-.team-section-description {
+.team-description {
   line-height: 1.2;
   text-align: center;
 }
 
-.section-address {
+.address {
   font-style: normal;
 }
 
-.section-address-map {
+.address-map {
   color: var(--primary-white-color);
   line-height: 1.7;
   background-color: var(--primary-text-color);
 }
 
-.section-address-contact {
+.address-contact {
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--primary-text-color);
 }
 
-.section-works-element {
+.works-element {
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.section-works-paragraph {
+.works-paragraph {
   font-size: 16px;
   line-height: 1.9;
 }
